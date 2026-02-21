@@ -1,0 +1,4 @@
+#!/bin/sh
+# pray — wrapper to invoke pray.sh from the same directory
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+exec "$SCRIPT_DIR/pray.sh" "$@"
