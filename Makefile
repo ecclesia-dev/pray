@@ -7,4 +7,7 @@ install:
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/pray
 
-.PHONY: install uninstall
+.PHONY: install uninstall hooks
+
+hooks:
+	sh scripts/install-hooks.sh
