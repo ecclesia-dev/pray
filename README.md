@@ -37,3 +37,6 @@ POSIX shell. No dependencies.
 ## License
 
 Public domain.
+
+---
+_Built by Jerome. Reviewed by Bellarmine (theology) and Pius (content alignment)._

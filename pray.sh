@@ -133,7 +133,7 @@ get_mysteries() {
     esac
 }
 
-# Traditional mystery assignment (no luminous — that's JP2)
+# Traditional mystery assignment (pre-2002, excludes Luminous Mysteries)
 today_mystery() {
     case "$DOW_NUM" in
         1) echo "joyful" ;;      # Monday
